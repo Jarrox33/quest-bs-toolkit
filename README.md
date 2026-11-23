@@ -25,7 +25,7 @@ An all-in-one interactive terminal dashboard with an animated neon banner for la
 
 2. Download bs_toolkit.py from the Releases page (alongside the tool scripts you want to use) into /sdcard/Download.
 
-3. Bind the one-word bs shortcut and launch: bash
+3. Bind the one-word bs shortcut and launch:
 echo "alias bs='python /sdcard/Download/bs_toolkit.py'" >> ~/.bashrc
 source ~/.bashrc
 bs

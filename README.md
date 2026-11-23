@@ -22,3 +22,10 @@ An all-in-one interactive terminal dashboard with an animated neon banner for la
    termux-setup-storage
    pkg update -y && pkg install -y python ffmpeg
    pip install --upgrade pip setuptools wheel
+
+2. Download bs_toolkit.py from the Releases page (alongside the tool scripts you want to use) into /sdcard/Download.
+
+3. Bind the one-word bs shortcut and launch: bash
+echo "alias bs='python /sdcard/Download/bs_toolkit.py'" >> ~/.bashrc
+source ~/.bashrc
+bs
